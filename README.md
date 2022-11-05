@@ -34,7 +34,7 @@
 
 - ![](https://github.com/MohitKumarMandhre/twitter-airflow-project/blob/main/imgs/ec2_instances.PNG)
 
-- ![](hhttps://github.com/MohitKumarMandhre/twitter-airflow-project/blob/main/imgs/s3_bucket.PNG)
+- ![](https://github.com/MohitKumarMandhre/twitter-airflow-project/blob/main/imgs/s3_bucket.PNG)
 
 - ![](https://github.com/MohitKumarMandhre/twitter-airflow-project/blob/main/imgs/result_data.PNG)
 
