@@ -1,0 +1,66 @@
+Steps: ( https://github.com/darshilparmar/twitter-airflow-data-engineering-project/blob/main/twitter_etl.py )
+
+Step 1: Control Panel | Programs and Features | Turn Windows Features on or off 
+Enable: Windows Subsystems for Linux.
+Step 2 : Install Ubuntu from windows store and restart system
+Step 3 : Install and update PIP
+Sudo apt-get install software-properties-common
+Sudo apt-add-repository universe
+Sudo apt-get update
+Sudo apt-get install python-pip
+Step 4 : Install Airflow
+Export SLUGIFY_USES_TEXT_UNIDECODE=yes
+pip install apache-airflow
+Step 5 : Initialize DB
+Airflow Initdb  
+Step 6 : Start airflow server
+airflow webserver -p 8080
+Step 7 : URL is ready : http://localhost:8080/
+Step 8 : step up folder for DAG
+Create folder DAG in C:drive(C:\DAG)
+Step 9 : Add New DAG
+Run airflow initdb
+
+Create A Admin users:
+
+airflow users create \
+--username pass \
+--password pass \
+--firstname pass \
+--lastname word \
+--role Admin \
+--email pass@email.com
+
+
+https://medium.com/@jacksonbull1987/how-to-install-apache-airflow-6b8a2ae60050
+
+----------------------------------
+etl_airflow_mkm
+
+api key- 
+rzaO75uv0tKyFHMYM19gQvbYM
+
+api key secret-
+jNDIvcFtKSteeu83tQaIARYzMD812XDDxp7JU3QLkfQNYCVkn1
+
+bearer token- 
+jNDIvcFtKSteeu83tQaIARYzMD812XDDxp7JU3QLkfQNYCVkn1
+
+access token- 
+1588059056597409792-psNJhyInw3xS71R2ipmlSe7BHyRXJW
+
+acces token secret-
+Oa2b0UhioSSiJFIBgalPqbJPwNCDGwqglmkAhKzOMsqTl
+
+------------------------------------
+
+ssh -i "sec_key.pem" ubuntu@ec2-13-232-115-224.ap-south-1.compute.amazonaws.com
+
+http://ec2-13-235-19-252.ap-south-1.compute.amazonaws.com:8080/home
+
+------------------------------------
+
+dag not visible - https://stackoverflow.com/questions/38992997/dag-not-visible-in-web-ui
+
+iam role - giving access to ec2 machine to create/modify s3 bucket
+
