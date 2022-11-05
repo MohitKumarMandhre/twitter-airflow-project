@@ -16,4 +16,26 @@
 - ### Store data into S3 bucket 
 > **Amazon Simple Storage Service (Amazon S3)** is an object storage service that offers industry-leading scalability, data availability, security, and performance. You can use Amazon S3 to store and retrieve any amount of data at any time, from anywhere.
 
+- ## Image gallery
+
+> **Directed Acyclic Graph (DAG)** is used to represent the structure of basic blocks, to visualize the flow of values between basic blocks, and to provide optimization techniques in the basic block.
+
+- ![](https://github.com/MohitKumarMandhre/twitter-airflow-project/blob/main/imgs/dag.PNG)
+
+- ![](https://github.com/MohitKumarMandhre/twitter-airflow-project/blob/main/imgs/dagList.PNG)
+
+- ![](https://github.com/MohitKumarMandhre/twitter-airflow-project/blob/main/imgs/dag_struct01.PNG)
+
+- ![](https://github.com/MohitKumarMandhre/twitter-airflow-project/blob/main/imgs/dag_struct02.PNG)
+
+- ![](https://github.com/MohitKumarMandhre/twitter-airflow-project/blob/main/imgs/dag_struct03.PNG)
+
+- ![](https://github.com/MohitKumarMandhre/twitter-airflow-project/blob/main/imgs/my_dag.PNG)
+
+- ![](https://github.com/MohitKumarMandhre/twitter-airflow-project/blob/main/imgs/ec2_instances.PNG)
+
+- ![](hhttps://github.com/MohitKumarMandhre/twitter-airflow-project/blob/main/imgs/s3_bucket.PNG)
+
+- ![](https://github.com/MohitKumarMandhre/twitter-airflow-project/blob/main/imgs/result_data.PNG)
+
 ## Made with 💖 & 🔥 by MKM.
